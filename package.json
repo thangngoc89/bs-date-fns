@@ -9,15 +9,11 @@
     "type": "git",
     "url": "https://github.com/SllyQ/bs-date-fns.git"
   },
-  "keywords": [
-    "reason",
-    "reasonml",
-    "bucklescript",
-    "date-fns"
-  ],
+  "sideEffects": false,
+  "keywords": ["reason", "reasonml", "bucklescript", "date-fns"],
   "author": "Arnoldas Sidlauskas <arnoldas.sid@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "date-fns": "^1.29.0"
+  "dependencies": {
+    "date-fns": "git://github.com/thangngoc89/date-fns.git#v1"
   }
 }
